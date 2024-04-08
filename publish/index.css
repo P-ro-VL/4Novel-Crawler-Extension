@@ -1,0 +1,28 @@
+body {
+  width: 600px;
+  height: 500px;
+}
+
+body > div {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 4px;
+  padding-bottom: 0;
+}
+
+#currentNovel {
+  margin: 0;
+  font-style: italic;
+  font-size: 14pt;
+}
+
+#chap-settings {
+  display: flex;
+}
+
+#chap-settings > * {
+  margin: 0;
+  margin-left: 12px;
+}

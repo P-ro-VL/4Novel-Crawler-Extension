@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "4novel Crawler",
+  "description": "Tool crawl nội dung tiểu thuyết từ 4novel.com",
+  "version": "1.0",
+  "action": {
+    "default_icon": "favicon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["cookies", "tabs"],
+  "host_permissions": ["*://4novel.com/"]
+}
